@@ -1,0 +1,56 @@
+@media only screen and (max-width:580px)
+{
+
+    #homepage-body{
+        background-image:url("../images/sback.jpeg");
+        background-repeat:no-repeat;
+        background-size:100%;
+        background-attachment:fixed; 
+    }
+
+
+    .box1 {
+        width: 90%;
+        margin-left: 4%;
+        padding: 0;
+    }
+    
+    .menu-div{
+        width: 90%;
+        margin-left: 4%;
+        padding: 0;
+    }
+    .menu li{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+
+}
+
+@media only screen and (max-width:1000px)
+{
+    .box1 {
+        width: 90%;
+        margin-left: 4.5%;
+        padding: 0;
+    }
+
+    .menu-div{
+        width: 90%;
+        margin-left: 4%;
+        padding: 0;
+    }
+   
+}
+
+@media only screen and (orientation:landscape){
+    #myself{
+        background-color: #b9e5fb;
+    }
+}
+
+
+

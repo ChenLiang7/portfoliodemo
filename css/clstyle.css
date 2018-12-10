@@ -1,0 +1,330 @@
+/* font-family: 'K2D', sans-serif;
+font-family: 'Niramit', sans-serif;
+font-family: 'Fahkwang', sans-serif; */
+
+
+body{
+    width:100%;
+}
+
+#homepage-body{
+    background-image:url("../images/CL.jpeg");
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-attachment:fixed; 
+}
+
+#homepage-body .box1 h1{
+    font-family: "K2D", sans-serif;
+    font-size:70px;
+    color:black;
+    text-align:center;
+}
+
+#homepage-body .box1 p{
+    font-family: "Niramit", sans-serif;
+    font-size:30px;
+    color:black;
+    text-align:center;
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom:1%;
+}
+
+.box1{
+    display:inline-block;
+    margin-left: 5%;
+    margin-top:5%;
+    width: 50%;
+    background-color:#e0e1e2;
+    opacity: 0.7;
+}
+
+.menu-div{
+    margin-top:7%;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.menu-div nav{
+    margin: auto;
+    width: 100%;
+}
+
+.menu{
+    text-align: justify;
+    padding: 0;
+}
+.menu:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.menu li{
+    font-size:1.2em;
+    display: inline-block;
+    margin:auto;
+    background-color:#e0e1e2;
+    opacity: 0.5;
+    padding:1%;    
+}
+
+.menu li:nth-child(1){
+    margin-left:0;
+}
+/* .menu li:nth-child(4){ 
+    margin-right:0;
+} */
+
+
+.menu li:hover{
+    opacity:1;
+}
+.menu li a{
+    text-decoration:none;
+    color:black;
+}
+
+.name{
+    text-align: left;
+}
+
+.love{
+    color:blueviolet;
+}
+
+.illus{
+    text-align: center;
+    font-size: 3em;
+    color:rgb(62, 72, 163);
+}
+
+.work{
+    text-align: center
+}
+
+
+#banner {
+    background-image: url("../images/whale.png");
+    background-size: contain;
+    background-position: bottom center;
+    width: 100%;
+    height:300px;
+  }
+  
+  #banner .content {
+    position: relative;
+    width: 30%;
+    padding-top: 8%;
+    margin: auto;
+    margin-left: 40%;
+  }
+
+
+.work-img img{
+    width: 400px;
+    height: 700px;
+}
+
+.work-grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 500px,500px,500px,500px;
+    margin: 3%;
+}
+
+.work-col-placeholder{
+    width: 0;
+}
+
+
+
+.profile-grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20% 70%;
+    grid-template-rows: 300px 200px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10%;
+    margin: 1%;
+}
+.profile-part-1{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    text-align: center;
+}
+.profile-part-1 h1{
+    text-align: center;
+}
+.profile-part-2{
+    margin-left:20%;
+}
+
+.profile-part-3 p{
+    font-family: "Fahkwang", sans-serif;
+}
+
+
+.interest-grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30px 30px 300px;
+    grid-row-gap: 10px;
+    grid-column-gap: 2%;
+}
+
+.interest-r1{
+    grid-column-start: 1;
+    grid-column-end: span 3;    
+}
+
+
+
+.interest-grid p{
+    text-align: center;
+}
+
+#myself{
+    background-color:#e4f3fc;
+}
+
+
+
+/* project.html */
+/* Header styles */
+
+.header{
+    background-image: url("../images/whale.png");
+    background-size: contain;
+    background-position: bottom center;
+    width: 100%;
+    height:300px;
+    
+}
+
+.header h1 {
+    /* color: #41292C; */
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-size: 80px;
+    line-height: 80px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: 15%;
+    color: midnightblue;
+    background-color: aqua;
+    
+  }
+
+.note {
+    margin: 40px auto;
+    padding: 20px 30px 40px 30px;
+    background-color: #FFFFFFFFF;
+    overflow: auto;
+    width: 75%;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.note p{
+    color: #938E89;
+    text-align: center;
+    line-height: 24px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.note h2{
+    color: midnightblue;
+    font-family: 'Sarala', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.note h3{
+    font-family: 'Sarala', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: .2em;
+}
+
+.project div {
+    /* font: inherit; */
+    font-family: 'Sarala', sans-serif;
+    padding: 0 20px;
+    color: #f499c1;
+    overflow: auto;
+    opacity: 0.9;
+}
+
+.project p {
+    color: midnightblue;
+    text-align: left;
+}
+
+.map {
+    background-color: #e4f3fc;
+}
+  
+.visual {
+    background-color:#b9e5fb;
+}
+  
+.app {
+    background-color: #99c0e6;
+}
+  
+.web {
+    background-color:#6e9ad1;
+
+}
+
+
+/* travel.html */
+
+.container{
+	width: 95%;
+	/* border: 2px solid black; */
+	margin:0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+}
+
+.container img{
+	width: 100%;
+}
+
+.item{
+	border: 2px solid black;
+}
+
+.caption{
+	text-align: center;
+	display: grid;
+	color: rgba(121, 94, 243, 0.719);
+}
+
+/* .caption{
+	text-align: center;
+	display: grid;
+	color: rgba(47, 0, 255, 0.719);
+} */
+
+/* .controls{
+	padding: 2rem;
+	display:inline-block;
+	margin-left: 31%;
+}
+
+.control{
+	padding: 10px 20px;
+	color:white;
+	background: black;
+} */
+
